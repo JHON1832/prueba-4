@@ -302,7 +302,7 @@ h3{
 }
 header{
 	width: 1000px;
-	height: 120 px;
+	height: 0px;
 	background: rgba(255, 255, 255, 10,70);
 }
 nav{
@@ -311,21 +311,71 @@ nav{
 	background: #003f5e;
 	border-radius: 0px 0px 10px 10px;
 	color: #006680;
+	
 }
 ul{
-margin: auto;
-padding-top: 4px;
+	width: 50%;
+	padding: 0px;
 }
-li{
-	float: left;
+
+ul li
+{
 	list-style-type: none;
-	padding: 13px;
+     text-align: center;
+
+}
+ul li
+{
+	position: relative;
+	float: left;
+	width: 90px;
 	background: #003f5e;
 	margin: 3px;
-	border-radius: 7px;
+	border-radius: 4px;
 	box-shadow: inset 0px 0px 10px white;
 	margin-top: 7px;
 }
+ul li a
+{
+	display: block;
+	color:#fff;
+	padding: 1em 0;
+	text-decoration: none;
+}
+li ul
+{
+	display: none;
+	position: absolute;
+}
+li:hover > ul
+{
+	display: block;;
+
+}
+li ul li
+{
+	position: relative;
+	margin: 0px;
+	margin-top: 2px;
+	background: #A54686;
+}
+
+li ul li ul 
+{
+ right:-50px;
+ top:0px;
+ margin: 0px;
+border-radius: 0px;
+margin-top: -2px;
+background: #50B748;
+}
+li ul li ul li
+{
+background: #50B748;
+text-decoration: none;
+color:#000;
+}
+
 section{
 	width: 713px;
 	background: white;
