@@ -299,9 +299,10 @@ iframe
 h3{
 	font-family: Arial, Helvetica, sans-serif;
 	;
-	color: white;
-	font-size: 11px;
+	color: black;
+	font-size: 12px;
 	text-align: center;
+	vertical-align: top;
 }
 header{
 	width: 1000px;
