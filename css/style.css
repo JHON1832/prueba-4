@@ -395,9 +395,17 @@ article
 	width: 713px;
 	background: white;
 	height: 670px;
+} 
+td {
+	 font-size: 15px;
+	 line-height: 12px;
+	 padding: 0 4px;
+	 text-align: justify;
+	 vertical-align: top;
+	 width:50%;
 }
 aside{
-	width: 280px;
+	width: 50px;
 	background: white;
 	height: 720px;
 	float: left;
